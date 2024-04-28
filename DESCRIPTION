@@ -1,0 +1,27 @@
+Package: asp20plot
+Title: Generalized / Weighted Least Squares parameter estimation and corresponding plots
+Version: 0.0.0.9000
+Authors@R: 
+    c(
+    person(given = "Manuel",
+           family = "Goldkuhle",
+           role = c("aut", "cre"),
+           email = "manuel.goldkuhle@stud.uni-goettingen.de"
+           ),
+    person(given = "Friederike",
+           family = "Becker",
+           role = c("aut"),
+           email = "f.becker01@stud.uni-goettingen.de"
+          )
+    )
+Description: This package provides an R6Class for parameter estimation based on
+  generalized / weighted least squares (GLS/WLS) and corresponding plots for
+  model predictions and diagnostics.
+Depends: asp20model
+Imports: R6
+Suggests: testthat, numDeriv
+License: `use_gpl3_license()`
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.0
